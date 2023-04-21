@@ -4,7 +4,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
     console.log(req.ip)
-  res.send('Hello World!')
+  res.send(req.url)
 })
 
 app.listen(port, () => {
