@@ -4,7 +4,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
     console.log(req.ip)
-  res.send(req.url)
+  res.redirect(301,'https://github.com/epicadidash')
 })
 
 app.listen(port, () => {
