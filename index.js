@@ -10,6 +10,10 @@ app.get('/h', (req, res) => {
     console.log(req.ip)
   res.send('hello world')
 })
+app.get('/z', (req, res) => {
+    console.log(req.ip)
+  res.send('hello world')
+})
 
 app.listen(port, () => {
   console.log(`Server started  ${port}`)
