@@ -12,7 +12,7 @@ app.get('/h', (req, res) => {
 })
 app.get('/z', (req, res) => {
     console.log(req.ip)
-  res.send('hello world')
+  res.json({"res":"hello"})
 })
 
 app.listen(port, () => {
