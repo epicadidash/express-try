@@ -1,2 +1,2 @@
 # express-try
-nodemailer
+nodemailer-example
